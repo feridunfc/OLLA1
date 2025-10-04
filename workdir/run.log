@@ -1,0 +1,1035 @@
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "Fallback Sprint",
+  "sprint_goal": "Directive for Architect:\n\n**Scope:**\n- Integrate JWT authentication into the Fas",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T-1",
+          "title": "Scaffold module",
+          "description": "Create a simple Python module with one function",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 2
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "Fallback Sprint",
+  "sprint_goal": "Directive for Architect:\n\n**Scope:**\nImplement JWT authentication using FastAPI.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T-1",
+          "title": "Scaffold module",
+          "description": "Create a simple Python module with one function",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 2
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Authentication Implementation Sprint",
+  "sprint_goal": "Implement JWT authentication into the existing FastAPI application following industry best practices.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T001",
+          "title": "Research and Review JWT Authentication Libraries",
+          "description": "Identify suitable JWT libraries for the project, review their features, and choose one that best fits the requirements.",
+          "agent_type": "Developer",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T002",
+          "title": "Update FastAPI Application Configuration",
+          "description": "Modify FastAPI application configuration to integrate JWT authentication, including setting up the necessary environment variables and dependencies.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T003",
+          "title": "Design Authentication Endpoints",
+          "description": "Create design documents for the JWT authentication endpoints, including login and token generation.",
+          "agent_type": "Designer/Architect",
+          "dependencies": [],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T004",
+          "title": "Implement Login Endpoint",
+          "description": "Develop the login endpoint to handle user authentication and return JWT tokens.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T001",
+            "T002"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T005",
+          "title": "Implement Token Generation Endpoint",
+          "description": "Create the endpoint to generate JWT tokens for authenticated users.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T001",
+            "T002"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T006",
+          "title": "Test Authentication Endpoints",
+          "description": "Thoroughly test the login and token generation endpoints to ensure they are secure, functional, and handle edge cases.",
+          "agent_type": "Tester/Developer",
+          "dependencies": [
+            "T004",
+            "T005"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T007",
+          "title": "Document Changes and Configurations",
+          "description": "Create a comprehensive documentation for the JWT authentication implementation, including setup instructions, configuration details, and usage examples.",
+          "agent_type": "Architect/Developer",
+          "dependencies": [],
+          "estimated_hours": 8
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Authentication Integration Sprint",
+  "sprint_goal": "Successfully integrate JWT authentication into the FastAPI application following industry best practices.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Research and Plan",
+          "description": "Conduct research on JWT implementation in FastAPI. Plan the integration strategy, including security considerations and compatibility checks.",
+          "agent_type": "Architect",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T2",
+          "title": "Set Up Authentication Endpoints",
+          "description": "Create new endpoints for JWT authentication, including user registration and login. Implement token generation and validation.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 16
+        },
+        {
+          "task_id": "T3",
+          "title": "Secure Authentication Endpoints",
+          "description": "Ensure all authentication endpoints are secure, including handling of JWT tokens and user data. Implement rate limiting and error handling.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T2"
+          ],
+          "estimated_hours": 16
+        },
+        {
+          "task_id": "T4",
+          "title": "Document Changes and Configuration",
+          "description": "Create comprehensive documentation for JWT implementation, including setup instructions, configuration details, and usage examples. Ensure all changes are documented.",
+          "agent_type": "Documentation Writer",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T5",
+          "title": "Run Integration Tests",
+          "description": "Run integration tests to ensure the new JWT authentication endpoints work correctly with existing application logic. Update test suite as necessary.",
+          "agent_type": "Developer",
+          "dependencies": [
+            "T2"
+          ],
+          "estimated_hours": 16
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Authentication Implementation Sprint",
+  "sprint_goal": "Implement JWT-based authentication in the FastAPI application following industry best practices.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T001",
+          "title": "Research and Plan Authentication Strategy",
+          "description": "Identify security requirements, choose JWT as the authentication mechanism, and plan API endpoints.",
+          "agent_type": "Architect",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T002",
+          "title": "Set Up FastAPI for JWT Authentication",
+          "description": "Configure FastAPI to use JWT, including setting up the JWT secret key and initializing the authentication middleware.",
+          "agent_type": "Architect",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T003",
+          "title": "Design API Endpoints for Authentication",
+          "description": "Create endpoints for user registration, login, and token refresh.",
+          "agent_type": "Architect",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T004",
+          "title": "Implement JWT Authentication Logic",
+          "description": "Write the logic for generating, validating, and handling JWT tokens.",
+          "agent_type": "Architect",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T005",
+          "title": "Integration Testing of Authentication Endpoints",
+          "description": "Write tests to ensure all authentication endpoints work as expected.",
+          "agent_type": "Architect",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T006",
+          "title": "Update Documentation and Code Review",
+          "description": "Document the new authentication endpoints and prepare for code review.",
+          "agent_type": "Architect",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Authentication Implementation Sprint",
+  "sprint_goal": "Implement JWT authentication into the FastAPI application following industry best practices.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T001",
+          "title": "Research and Design",
+          "description": "Conduct research on JWT implementation, design authentication flow, and identify dependencies.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T002",
+          "title": "Set Up Environment",
+          "description": "Configure development environment for JWT implementation. Install required libraries and set up FastAPI project.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T003",
+          "title": "Design Authentication Endpoints",
+          "description": "Design JWT authentication endpoints (e.g., login, token refresh). Document API.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T004",
+          "title": "Implement JWT Authentication Logic",
+          "description": "Write code for JWT authentication logic, including token generation and validation.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T001",
+            "T003"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T005",
+          "title": "Test Authentication Endpoints",
+          "description": "Test login, token refresh endpoints to ensure they work as expected.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T004"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T006",
+          "title": "Document Changes and Configurations",
+          "description": "Create documentation for JWT implementation, including setup instructions, configuration details, and usage examples.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T001",
+            "T003",
+            "T004"
+          ],
+          "estimated_hours": 8
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Authentication Implementation Sprint",
+  "sprint_goal": "Implement JWT authentication using FastAPI following standard security practices.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T001",
+          "title": "Research and Plan JWT Integration",
+          "description": "Identify libraries, best practices, and potential challenges for implementing JWT authentication in FastAPI.",
+          "agent_type": "integrator",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T002",
+          "title": "Design Authentication Endpoints",
+          "description": "Create a design document for the JWT endpoints, including POST requests for authentication and token verification.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T003",
+          "title": "Set Up FastAPI Project Environment",
+          "description": "Ensure the existing FastAPI project environment is ready for JWT integration.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T001"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T004",
+          "title": "Implement JWT Authentication Logic",
+          "description": "Write the code to handle JWT authentication, including token generation and validation.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T001",
+            "T003"
+          ],
+          "estimated_hours": 20
+        },
+        {
+          "task_id": "T005",
+          "title": "Test Authentication Endpoints",
+          "description": "Write tests to ensure the authentication endpoints are secure and functional.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T004"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T006",
+          "title": "Document JWT Implementation",
+          "description": "Create detailed documentation for setting up, configuring, and using the JWT authentication in the FastAPI application.",
+          "agent_type": "integrator",
+          "dependencies": [
+            "T004"
+          ],
+          "estimated_hours": 8
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "Hedef: FastAPI'ye JWT auth ekle.\nGereksinimler:\n- Endpoint'ler: POST /register (in-memory), POST /login (JWT üret), GET /me (Bearer zorunlu).\n- Şifre: passlib[bcrypt] ile hashle.\n- JWT: pyjwt; exp=30 dakika; HS256, SECRET='dev-secret'.\n- DB yok: kullanıcılar in-memory dict.\n- Test: pytest + httpx AsyncClient (pozitif/negatif).\n- Kısıt: tek servis, minimal bağımlılık.\n\nArchitect için çıktı şeması (JSON):\n{sprint_title, sprint_goal, weeks:[{week_number, tasks:[{task_id,title,description,agent_type,dependencies,estimated_hours}]}]}\n\nagent_type SADECE: coder | tester | integrator\nTask örnekleri:\n- T1 coder: Proje iskeleti & settings\n- T2 coder: /register (hash, doğrulama)\n- T3 coder: JWT helper (create/verify)\n- T4 coder: /login (token döndür)\n- T5 coder: get_current_user dependency\n- T6 coder: /me korumalı endpoint\n- T7 tester: login & me (401/200)\n- T8 coder: küçük düzeltmeler"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "Fallback Sprint",
+  "sprint_goal": "Directive for Architect:\n\n**Sprint Title:** Implement JWT Authentication in Fast",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T-1",
+          "title": "Scaffold module",
+          "description": "Create a simple Python module with one function",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 2
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "Hedef: FastAPI'ye JWT auth ekle.\nGereksinimler:\n- Endpoint'ler: POST /register (in-memory), POST /login (JWT üret), GET /me (Bearer zorunlu).\n- Şifre: passlib[bcrypt] ile hashle.\n- JWT: pyjwt; exp=30 dakika; HS256, SECRET='dev-secret'.\n- DB yok: kullanıcılar in-memory dict.\n- Test: pytest + httpx AsyncClient (pozitif/negatif).\n- Kısıt: tek servis, minimal bağımlılık.\n\nArchitect için çıktı şeması (JSON):\n{sprint_title, sprint_goal, weeks:[{week_number, tasks:[{task_id,title,description,agent_type,dependencies,estimated_hours}]}]}\n\nagent_type SADECE: coder | tester | integrator\nTask örnekleri:\n- T1 coder: Proje iskeleti & settings\n- T2 coder: /register (hash, doğrulama)\n- T3 coder: JWT helper (create/verify)\n- T4 coder: /login (token döndür)\n- T5 coder: get_current_user dependency\n- T6 coder: /me korumalı endpoint\n- T7 tester: login & me (401/200)\n- T8 coder: küçük düzeltmeler"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Add JWT authentication to FastAPI following the provided requirements.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Project Skeleton & Settings Setup",
+          "description": "Set up the project structure and basic settings for JWT authentication.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T2",
+          "title": "/register Endpoint Implementation (Hashing & Validation)",
+          "description": "Implement the /register endpoint to hash passwords and validate them.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT Helper Functions (Create & Verify)",
+          "description": "Develop functions for creating JWT tokens and verifying them.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T4",
+          "title": "/login Endpoint Implementation (Token Generation)",
+          "description": "Implement the /login endpoint to generate JWT tokens for users.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T5",
+          "title": "/me Endpoint Implementation (Current User Dependency)",
+          "description": "Implement the /me endpoint to use a dependency for getting current user information.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T6",
+          "title": "/me Endpoint Security (Bearer Token)",
+          "description": "Secure the /me endpoint to require a Bearer token for authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T7",
+          "title": "Login & Me Endpoint Testing (Positive/Negative)",
+          "description": "Test the /login and /me endpoints using pytest with httpx AsyncClient.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "Hedef: FastAPI'ye JWT auth ekle.\nGereksinimler:\n- Endpoint'ler: POST /register (in-memory), POST /login (JWT üret), GET /me (Bearer zorunlu).\n- Şifre: passlib[bcrypt] ile hashle.\n- JWT: pyjwt; exp=30 dakika; HS256, SECRET='dev-secret'.\n- DB yok: kullanıcılar in-memory dict.\n- Test: pytest + httpx AsyncClient (pozitif/negatif).\n- Kısıt: tek servis, minimal bağımlılık.\n\nArchitect için çıktı şeması (JSON):\n{sprint_title, sprint_goal, weeks:[{week_number, tasks:[{task_id,title,description,agent_type,dependencies,estimated_hours}]}]}\n\nagent_type SADECE: coder | tester | integrator\nTask örnekleri:\n- T1 coder: Proje iskeleti & settings\n- T2 coder: /register (hash, doğrulama)\n- T3 coder: JWT helper (create/verify)\n- T4 coder: /login (token döndür)\n- T5 coder: get_current_user dependency\n- T6 coder: /me korumalı endpoint\n- T7 tester: login & me (401/200)\n- T8 coder: küçük düzeltmeler"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Implement JWT authentication with FastAPI and PyJWT.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Proje iskeleti & settings",
+          "description": "Create the project structure and basic settings for FastAPI application.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T2",
+          "title": "/register endpoint (hash, validation)",
+          "description": "Implement registration endpoint that hashes passwords and validates them using passlib[bcrypt].",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT helper (create/verify)",
+          "description": "Create functions for creating and verifying JWT tokens using pyjwt.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T2"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T4",
+          "title": "/login endpoint (token creation)",
+          "description": "Implement login endpoint that creates and returns JWT token for authenticated users.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T2",
+            "T3"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T5",
+          "title": "get_current_user dependency",
+          "description": "Create a dependency function that returns the current user from JWT token.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T3"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T6",
+          "title": "/me endpoint (protected)",
+          "description": "Create a protected GET /me endpoint that requires Bearer token for authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T3",
+            "T5"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T7",
+          "title": "login & me (401/200) tests",
+          "description": "Write pytest tests for login and /me endpoints to ensure they work as expected.",
+          "agent_type": "tester",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T8",
+          "title": "Small fixes & improvements",
+          "description": "Make any necessary small adjustments and optimizations for the implemented features.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T7"
+          ],
+          "estimated_hours": 4
+        }
+      ]
+    }
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "Hedef: FastAPI'ye JWT auth ekle.\nGereksinimler:\n- Endpoint'ler: POST /register (in-memory), POST /login (JWT üret), GET /me (Bearer zorunlu).\n- Şifre: passlib[bcrypt] ile hashle.\n- JWT: pyjwt; exp=30 dakika; HS256, SECRET='dev-secret'.\n- DB yok: kullanıcılar in-memory dict.\n- Test: pytest + httpx AsyncClient (pozitif/negatif).\n- Kısıt: tek servis, minimal bağımlılık.\n\nArchitect için çıktı şeması (JSON):\n{sprint_title, sprint_goal, weeks:[{week_number, tasks:[{task_id,title,description,agent_type,dependencies,estimated_hours}]}]}\n\nagent_type SADECE: coder | tester | integrator\nTask örnekleri:\n- T1 coder: Proje iskeleti & settings\n- T2 coder: /register (hash, doğrulama)\n- T3 coder: JWT helper (create/verify)\n- T4 coder: /login (token döndür)\n- T5 coder: get_current_user dependency\n- T6 coder: /me korumalı endpoint\n- T7 tester: login & me (401/200)\n- T8 coder: küçük düzeltmeler"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Add JWT authentication to FastAPI with user registration, login, and protected endpoint.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Proje iskeleti & settings",
+          "description": "Create the project structure and basic settings for FastAPI application.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T2",
+          "title": "/register endpoint (hash, validation)",
+          "description": "Implement user registration with password hashing and validation. Use in-memory dict for users.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT helper (create/verify)",
+          "description": "Create JWT creation and verification functions using pyjwt with HS256 algorithm. Use 'dev-secret' as the secret key.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T4",
+          "title": "/login endpoint (token creation)",
+          "description": "Implement login endpoint that creates JWT token for authenticated users. Use '/register' to authenticate.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T5",
+          "title": "get_current_user dependency",
+          "description": "Create a dependency function that returns the current user from JWT token. Use for '/me' endpoint.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T6",
+          "title": "/me protected endpoint",
+          "description": "Create a GET /me endpoint that requires Bearer token. Use 'get_current_user' dependency.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T7",
+          "title": "Login & me test cases",
+          "description": "Write tests for '/login' and '/me' endpoints using pytest and httpx.AsyncClient. Include both positive (200) and negative (401) scenarios.",
+          "agent_type": "tester",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T8",
+          "title": "Small fixes & improvements",
+          "description": "Make any necessary small adjustments to the code and endpoints for better functionality or security.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 4
+        }
+      ]
+    }
+  ]
+}
+
+=== Integration ===
+{
+  "pr_url": "https://example/pr/1",
+  "summary": "simulated",
+  "next_steps": [
+    "manual review"
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "Hedef: FastAPI'ye JWT auth ekle.\nGereksinimler:\n- Endpoint'ler: POST /register (in-memory), POST /login (JWT üret), GET /me (Bearer zorunlu).\n- Şifre: passlib[bcrypt] ile hashle.\n- JWT: pyjwt; exp=30 dakika; HS256, SECRET='dev-secret'.\n- DB yok: kullanıcılar in-memory dict.\n- Test: pytest + httpx AsyncClient (pozitif/negatif).\n- Kısıt: tek servis, minimal bağımlılık.\n\nArchitect için çıktı şeması (JSON):\n{sprint_title, sprint_goal, weeks:[{week_number, tasks:[{task_id,title,description,agent_type,dependencies,estimated_hours}]}]}\n\nagent_type SADECE: coder | tester | integrator\nTask örnekleri:\n- T1 coder: Proje iskeleti & settings\n- T2 coder: /register (hash, doğrulama)\n- T3 coder: JWT helper (create/verify)\n- T4 coder: /login (token döndür)\n- T5 coder: get_current_user dependency\n- T6 coder: /me korumalı endpoint\n- T7 tester: login & me (401/200)\n- T8 coder: küçük düzeltmeler"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Add JWT authentication to FastAPI with user registration and login endpoints.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Proje iskeleti & settings",
+          "description": "Create the project structure and basic settings for FastAPI application.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T2",
+          "title": "/register (hash, doğrulama)",
+          "description": "Implement user registration endpoint with password hashing and validation.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 8
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT helper (create/verify)",
+          "description": "Create JWT creation and verification functions for authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T2"
+          ],
+          "estimated_hours": 6
+        },
+        {
+          "task_id": "T4",
+          "title": "/login (token döndür)",
+          "description": "Implement login endpoint to generate JWT tokens for authenticated users.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T3"
+          ],
+          "estimated_hours": 6
+        },
+        {
+          "task_id": "T5",
+          "title": "get_current_user dependency",
+          "description": "Create a dependency function to get the current user from JWT token.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T4"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T6",
+          "title": "/me korumalı endpoint",
+          "description": "Create a protected GET /me endpoint that requires JWT authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T5"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T7",
+          "title": "login & me (401/200) testleri",
+          "description": "Write tests for login and /me endpoints to ensure they work as expected.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T6"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T8",
+          "title": "küçük düzeltmeler",
+          "description": "Make any necessary adjustments to the application for correctness and performance.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T7"
+          ],
+          "estimated_hours": 4
+        }
+      ]
+    }
+  ]
+}
+
+=== Integration ===
+{
+  "pr_url": "https://example/pr/1",
+  "summary": "simulated",
+  "next_steps": [
+    "manual review"
+  ]
+}
+
+=== Discovery ===
+{
+  "goals": [
+    "FastAPI'ye JWT auth ekle"
+  ],
+  "assumptions": [],
+  "risks": [],
+  "open_questions": [],
+  "tech_stack": [],
+  "complexity": "medium"
+}
+
+=== Plan ===
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Add JWT authentication to FastAPI with in-memory user storage and tests.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Proje iskeleti & settings",
+          "description": "Create the basic project structure, FastAPI app setup, and initial settings.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T2",
+          "title": "/register (hash, doğrulama)",
+          "description": "Implement registration endpoint with password hashing and validation.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT helper (create/verify)",
+          "description": "Create JWT creation and verification functions using passlib and pyjwt.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T4",
+          "title": "/login (token döndür)",
+          "description": "Implement login endpoint to generate JWT tokens for authenticated users.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T5",
+          "title": "get_current_user dependency",
+          "description": "Create a dependency function to get the current user from JWT.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        },
+        {
+          "task_id": "T6",
+          "title": "/me korumalı endpoint",
+          "description": "Implement a protected GET /me endpoint that requires Bearer token authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T7",
+          "title": "login & me (401/200) testleri",
+          "description": "Write tests for login and /me endpoints using pytest and httpx.AsyncClient.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        },
+        {
+          "task_id": "T8",
+          "title": "küçük düzeltmeler",
+          "description": "Make any necessary adjustments to ensure all endpoints work as expected.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        }
+      ]
+    }
+  ]
+}
+
+=== Integration ===
+{
+  "pr_url": "https://example/pr/1",
+  "summary": "simulated",
+  "next_steps": [
+    "manual review"
+  ]
+}

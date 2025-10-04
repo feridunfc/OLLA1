@@ -1,0 +1,10 @@
+[T1] code yazıldı
+[T1] tests yazıldı
+[T2] Flask tespit edildi -> atlandı
+[T3] code yazıldı
+[T3] tests yazıldı
+[T4] Flask tespit edildi -> atlandı
+[T5] Flask tespit edildi -> atlandı
+[T6] Flask tespit edildi -> atlandı
+[T8] code yazıldı
+[T8] tests yazıldı

@@ -1,0 +1,93 @@
+{
+  "sprint_title": "JWT Auth Sprint",
+  "sprint_goal": "Add JWT authentication to FastAPI with in-memory user storage and tests.",
+  "weeks": [
+    {
+      "week_number": 1,
+      "tasks": [
+        {
+          "task_id": "T1",
+          "title": "Proje iskeleti & settings",
+          "description": "Create the basic project structure, FastAPI app setup, and initial settings.",
+          "agent_type": "coder",
+          "dependencies": [],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T2",
+          "title": "/register (hash, doğrulama)",
+          "description": "Implement registration endpoint with password hashing and validation.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T3",
+          "title": "JWT helper (create/verify)",
+          "description": "Create JWT creation and verification functions using passlib and pyjwt.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T4",
+          "title": "/login (token döndür)",
+          "description": "Implement login endpoint to generate JWT tokens for authenticated users.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T5",
+          "title": "get_current_user dependency",
+          "description": "Create a dependency function to get the current user from JWT.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        },
+        {
+          "task_id": "T6",
+          "title": "/me korumalı endpoint",
+          "description": "Implement a protected GET /me endpoint that requires Bearer token authentication.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 4
+        },
+        {
+          "task_id": "T7",
+          "title": "login & me (401/200) testleri",
+          "description": "Write tests for login and /me endpoints using pytest and httpx.AsyncClient.",
+          "agent_type": "tester",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        },
+        {
+          "task_id": "T8",
+          "title": "küçük düzeltmeler",
+          "description": "Make any necessary adjustments to ensure all endpoints work as expected.",
+          "agent_type": "coder",
+          "dependencies": [
+            "T1",
+            "T3"
+          ],
+          "estimated_hours": 2
+        }
+      ]
+    }
+  ]
+}
