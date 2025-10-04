@@ -1,12 +1,12 @@
-import json, time
+
+from loguru import logger
+from pathlib import Path
+
 class Logger:
     def __init__(self, path: str):
-        self.path = path
+        self.path = Path(path)
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        logger.add(str(self.path), rotation="5 MB", retention=10, serialize=True)
+
     def write_block(self, title: str, payload):
-        with open(self.path, "a", encoding="utf-8") as f:
-            f.write(f"\n===== {title} @ {time.strftime('%Y-%m-%d %H:%M:%S')} =====\n")
-            if isinstance(payload, str):
-                f.write(payload + "\n")
-            else:
-                json.dump(payload, f, ensure_ascii=False, indent=2)
-                f.write("\n")
+        logger.bind(kind="block").info({"title": title, "payload": payload})

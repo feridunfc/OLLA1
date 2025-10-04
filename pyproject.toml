@@ -1,0 +1,7 @@
+
+[project]
+name = "olla1-v4-secure"
+version = "0.1.0"
+description = "Local-first hybrid AI orchestrator with HITL, secure sandbox, and dashboard"
+requires-python = ">=3.10"
+dependencies = []
