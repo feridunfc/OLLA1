@@ -1,0 +1,13 @@
+﻿roles:
+  researcher: [web_search]
+  prompt_engineer: [web_search]
+  coder: [file_patch, linter]
+  tester: [linter, db_query]
+  integrator: [file_patch, db_query]
+approvals:
+  file_patch.delete:
+    require_human: true
+limits:
+  web_search:
+    per_task_max_calls: 5
+    per_call_timeout_sec: 15

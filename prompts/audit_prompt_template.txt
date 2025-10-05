@@ -1,0 +1,17 @@
+﻿### HARİCİ KOD DENETİMİ TALEBİ ###
+
+**Projenin Amacı:**
+{sprint_goal}
+
+**Mimari Plan:**
+{architecture_plan}
+
+**Üretilen Kod Dosyaları:**
+{files_section}
+
+Lütfen şu kriterlere göre değerlendir:
+- Kod Kalitesi (okunabilirlik, modülerlik)
+- Güvenlik (authz, SQLi, XSS)
+- Performans
+- En İyi Pratikler
+- En kritik 3 iyileştirme önerisi
